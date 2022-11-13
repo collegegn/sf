@@ -1,4 +1,5 @@
 # sf
+------------1 A [BINARY]--------------
 #aim == write the code to calculate net input and apply activation function
 
 import numpy as np
@@ -54,13 +55,88 @@ print("the output after applying binary sigmoidal function activation")
 
 print(round(binary,3))
 
+--------------1 B [BIPOLAR]---------------
+
+
+#aim == write the code to calculate net input and apply activation function
+
+import numpy as np
+
+
+
+def bi_sig(x):
+
+return 1/(2/(1+ (np.exp(-x))))
+
+
+
+bias=float(input("enter the value of bias"))
+
+#n will take neurons of the network.
+
+n=int(input("enter the number of input neurons:"))
+
+#w will take the weight & x will take the input
+
+
+
+w=[]
+
+x=[]
+
+
+
+#taking the value of input and their weight
+
+for i in range(0,n):
+
+a=float(input("enter the input: "))
+
+x.append(a)
+
+b=float(input("enter the weights: "))
+
+w.append(b)
+
+
+
+print("the given weights are: ")
+
+print(w)
+
+print("the given inputs are: ")
+
+print(x)
+
+y=bias
+
+for i in range(0,n):
+
+y=y+(w[i]*x[i])
+
+
+
+print("the calculated net input y:")
+
+
+print(y)
+
+
+bipolar=bi_sig(y)
+
+print("the output after applying binary sigmoidal function activation")
+
+print(round(bipolar,3))
 
 
 
 
 
 
--------------NEW PRACTICAL 2 A---------------
+
+
+
+-------------NEW PRACTICAL 2 A [AND/NOT FUNCTION]---------------
 
 
 
@@ -131,7 +207,7 @@ Y.append(ele)
 
 print("Y=", Y)
 
----------NEW PRACTICAL 2 B NEW---------
+---------NEW PRACTICAL 2 B [XOR FUNCTION]------------
 
 #Getting weights and threshold value
 
@@ -267,7 +343,7 @@ print('Threshold value');
 
 print(theta);
 
--------- NEW PRACTICAL 10A GENETIC ALGORITHM---------
+-------- NEW PRACTICAL 10A GENETIC ALGORITHM [INITIALIZATION]---------
  
  AIM
 
