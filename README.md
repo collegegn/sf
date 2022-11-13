@@ -54,7 +54,18 @@ print("the output after applying binary sigmoidal function activation")
 
 print(round(binary,3))
 
+
+
+
+
+
+
 2A
+
+
+
+
+
 
 num_ip=int(input("enter the number of inputs"))
 
