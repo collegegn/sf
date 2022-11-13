@@ -60,7 +60,7 @@ print(round(binary,3))
 
 
 
-2A
+-------------NEW PRACTICAL 2 A---------------
 
 
 
@@ -131,7 +131,7 @@ Y.append(ele)
 
 print("Y=", Y)
 
-2B
+---------NEW PRACTICAL 2 B NEW---------
 
 #Getting weights and threshold value
 
@@ -267,7 +267,9 @@ print('Threshold value');
 
 print(theta);
 
-10A GENETIC ALGORITHM
+-------- NEW PRACTICAL 10A GENETIC ALGORITHM---------
+ 
+ AIM
 
 #following statement will create an empty two dimentional array to store offspring
 offspring = numpy.empty((offspringSize, population.shape[1]))
@@ -333,7 +335,9 @@ print("\n best individual fitness:")
 
 print(bestFitness)
 
-10B GENETIC ALGORITHM
+--------NEW PRACTICAL 10B GENETIC ALGORITHM--------
+
+AIM
 
 import numpy
 
@@ -466,7 +470,9 @@ print("\n best individual fitness:")
 
 print(bestFitness)
 
-SIGMOD
+------------------SIGMOD----------------
+
+AIM-
 
 import numpy as np
 
@@ -510,7 +516,8 @@ plt.show()
 
 plt.show()
 
-FUZZY SET A
+--------------FUZZY SET A---------------
+AIM-
 
 A=[0.5,0.1,0.63,0.2]
 
@@ -598,7 +605,9 @@ else:
 
 BU.append(sum[1])
 
-FUZZY SET B
+------------------FUZZY SET B---------------
+
+AIM-
 
 A=[0.5,0.1,0.63,0.2]
 
